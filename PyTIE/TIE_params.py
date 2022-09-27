@@ -11,6 +11,12 @@ Arthur McCray, ANL, Summer 2019
 import numpy as np
 from scipy import constants, ndimage
 import hyperspy  # just to check signal type
+
+
+import hyperspy._signals.signal2d  #debug test
+import hyperspy._signals
+
+
 import hyperspy.api as hs
 import textwrap
 
